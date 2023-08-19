@@ -19,10 +19,13 @@
         <td><%= friend.last_name %></td>
         <td><%= friend.email %></td>
         <td><%= friend.phone %></td>
-        <td><%= link_to "Show this friend", friend %></td>
+        <td><%= link_to "Show this friend", friend %> | </td>
+        <td><%= link_to "Edit", edit_friend_path(friend) %> |&nbsp </td>
+        <td><%= button_to "Destroy this friend", friend, method: :delete %> </td>
       </tr>
     <% end %>
   </tbody>
 </table>
+<br></br>
 
 <%= link_to "New friend", new_friend_path %>
