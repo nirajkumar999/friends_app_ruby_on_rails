@@ -22,6 +22,9 @@
   <body>
     
     <%= render "home/header" %>
+    <% if notice %>
+      <%= render 'layouts/alert' %>
+    <% end %>
     <%= yield %>
     <%= render "home/footer" %>
 
