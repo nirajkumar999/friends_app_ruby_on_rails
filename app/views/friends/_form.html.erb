@@ -32,6 +32,10 @@
         <%= form.text_field :phone, class: "form-control" %>
       </div>
 
+      <div class="mb-2">
+        <%= form.label :"User ID", class: "form-label" %>
+        <%= form.number_field :user_id, id: :friend_user_id, class: "form-control", readonly: true, value: current_user.id %>
+      </div>
       <div>
         <%= form.submit "Save Changes", class: "btn btn-secondary" %>
       </div>
