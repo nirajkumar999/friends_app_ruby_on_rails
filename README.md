@@ -9,6 +9,8 @@ Things you may want to cover:
 
 I am using vscode (latest as of now) on windows 11 and here are the tools version that i have used in this project
 
+For any issue contact me : 1751nk@gmail.com
+
 * Ruby version : ruby 3.2.2 (2023-03-30 revision e51014f9c0) [x64-mingw-ucrt]
 
 * Rails version : Rails 7.0.7
